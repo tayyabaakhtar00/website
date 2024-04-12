@@ -34,9 +34,9 @@ function Bannder5() {
           <div className="banner-title ">
           <h1><span className="banner-heading">Unlock to your </span><br/> Business your growth & the future.</h1>
           </div>
-          <div className="banner-content">
+          <div className="banner-content col-lg-12">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="">
               <p>Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
                 <div className="scroll-and-social-area">
                   <div className="scroll-down-area">
