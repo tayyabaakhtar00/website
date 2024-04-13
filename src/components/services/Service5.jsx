@@ -89,7 +89,7 @@ function Service5() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Cloud Solutions</a></Link></h4>
+                  <h4><Link legacyBehavior href="/service-details"><a>Content</a></Link></h4>
                   <p>Cloud solutions refer to the use of cloud computing technology to provide services and solutions over the internet.</p>
                   <div className="learn-btn">
                   <Link legacyBehavior href="/service-details">
@@ -138,7 +138,7 @@ function Service5() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Cyber Security</a></Link></h4>
+                  <h4><Link legacyBehavior href="/service-details"><a>Artificial intelligence</a></Link></h4>
                   <p>Cybersecurity refers to the protection of computer systems, networks, and data from theft, damage, or unauthorized access.</p>
                   <div className="learn-btn">
                   <Link legacyBehavior href="/service-details">
@@ -182,7 +182,7 @@ function Service5() {
                   </svg>
                 </div>
                 <div className="solution-content">
-                  <h4><Link legacyBehavior href="/service-details"><a>Data Analytic</a></Link></h4>
+                  <h4><Link legacyBehavior href="/service-details"><a>Design</a></Link></h4>
                   <p>Data analytics refers to the process of examining and interpreting large datasets to extract insights and draw conclusions.</p>
                   <div className="learn-btn">
                   <Link legacyBehavior href="/service-details">
