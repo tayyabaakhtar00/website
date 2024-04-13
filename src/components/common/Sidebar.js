@@ -66,7 +66,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
             </ul> */}
           </li>
           <li className="menu-item-has-children menu-item">
-            <Link legacyBehavior href="/project" data-hover="Project"><a>Project</a></Link>
+            <Link legacyBehavior href="/contact" data-hover="Project"><a>Contact</a></Link>
             {/* <ul className={`sub-menu ${state.activeMenu === "projects" ? "d-block" : ""}`}>
               <li><Link legacyBehavior href="/project"><a>Project</a></Link></li>
               <li><Link legacyBehavior href="/project-masonary"><a>Project Masonry</a></Link></li>

@@ -82,7 +82,7 @@ function Header() {
           <div className="sidebar-log">
             <Link legacyBehavior href="/">
               <a>
-                <img src="assets/img/logo.svg" alt="" />
+                {/* <img src="assets/img/logo.svg" alt="" /> */}
               </a>
             </Link>
           </div>
@@ -169,11 +169,11 @@ function Header() {
         <div className="header-logo">
           <Link legacyBehavior href="/">
             <a>
-              <img
+              {/* <img
                 alt="image"
                 className="img-fluid"
                 src="assets/img/logo.svg"
-              />
+              /> */}
             </a>
           </Link>
         </div>
@@ -182,7 +182,7 @@ function Header() {
             <div className="mobile-logo-wrap">
               <Link legacyBehavior href="/">
                 <a>
-                  <img alt="image" src="assets/img/logo.svg" />
+                  {/* <img alt="image" src="assets/img/logo.svg" /> */}
                 </a>
               </Link>
             </div>

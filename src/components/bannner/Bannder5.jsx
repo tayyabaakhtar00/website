@@ -32,7 +32,7 @@ function Bannder5() {
         <div className="banner-area">
        
           <div className="banner-title ">
-          <h1><span className="banner-heading">Unlock to your </span><br/> Business your growth & the future.</h1>
+          <h1><span className="banner-heading">Unlock  </span><br/>to your Business your growth & the future.</h1>
           </div>
           <div className="banner-content col-lg-12">
             <div className="row">
