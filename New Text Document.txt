@@ -1,0 +1,3 @@
+I'm Tayyba Akhter, an adept web developer passionate about crafting refined digital journeys. With 2+ years of hands-on expertise, I've mastered various technologies to meet evolving web needs.
+
+💼 My arsenal encompasses HTML, CSS, and Tailwind CSS for sleek, responsive frontends. Proficient in JavaScript, I infuse websites with interactivity effortlessly. Proficiency in React and Next.js enables cutting-edge web app development
