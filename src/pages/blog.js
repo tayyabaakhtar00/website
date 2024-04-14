@@ -8,9 +8,9 @@ function BlogPgage() {
   return (
     <Layout>
       <Breadcrumb
-        pageList="Blog Grid"
-        title="Exploring The Softconic Blog"
-        pageName="BLOG GRID"
+        pageList="Blog "
+        title="Exploring The WCAD Blog"
+        pageName="BLOG "
       />
       <BlogBanner />
       <div className="home3-blog-area sec-mar">
