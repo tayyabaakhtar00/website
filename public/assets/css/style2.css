@@ -2397,8 +2397,7 @@ video {
   /* padding: 20%  !important; */
   z-index: 99;
   overflow: hidden;
-  
-  background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d);
+  background-image: url(../img/home-5/home5-bg.png), linear-gradient(#2A3E5A, #2A3E5A);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2493,8 +2492,15 @@ video {
   line-height: 30px;
   opacity: 0.8;
 }
+.main-nav-wrapper .main-nav2 .menu-close-btn:hover {
+  
+  border: 1px solid var(--theme-color);
+}
 .main-nav-wrapper .main-nav2 .menu-close-btn i {
   color: var(--white-color);
+}
+.main-nav-wrapper .main-nav2 .menu-close-btn i:hover {
+  color: var(--theme-color);
 }
 .main-nav-wrapper .main-nav2 .sidebar-menu-area > ul {
   float: none;
