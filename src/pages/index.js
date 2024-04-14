@@ -67,12 +67,12 @@ function HomepageThree() {
             </div>
           </header>
           <Bannder5 />
-          <About5 />
+          {/* <About5 />
           <Service5 />
           <WhatWeDo5 />
        
           <Testimonial5 />   
-          <Footer5 />
+          <Footer5 /> */}
         </div>
       </div>
     </>
