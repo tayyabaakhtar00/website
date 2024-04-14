@@ -4,7 +4,7 @@ import React from 'react'
 function Footer3() {
   return (
     <footer>
-  <div className="footer-top">
+  {/* <div className="footer-top">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
@@ -123,7 +123,7 @@ function Footer3() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   <div className="footer-btm">
     <div className="container">
       <div className="row">

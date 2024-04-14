@@ -22,7 +22,7 @@ function Choose6() {
                 <div className="choose-right-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/home-6/choose-img-1.png"
+                    src="assets/img/home-3/choose-img-1.jpg"
                     alt=""
                   />
                 </div>
@@ -46,11 +46,12 @@ function Choose6() {
                     />
                   </div>
                   <div className="icon">
-                    <img src="assets/img/logo.svg" alt="" />
+                    {/* <img src="assets/img/logo.svg" alt="" /> */}
+                    <h2>WCAD</h2>
                   </div>
                   <h4>
                     Best Creative IT Agency And Solutions <br />
-                    <span>Since 2005.</span>
+                    <span>Since 2023.</span>
                   </h4>
                   <p>
                     Morbi interdum pellentesque nunc, luctus pretium nullagoneq
@@ -58,10 +59,10 @@ function Choose6() {
                     efficiturunt tellus iaculis faucibus Quisque gravida.
                   </p>
                   <div className="sl">
-                    <h2>#1</h2>
+                    <h1>#1</h1>
                   </div>
                   <div className="about-btn">
-                    <Link legacyBehavior href="/about">
+                    <Link legacyBehavior href="/company">
                       <a>
                         <svg
                           width={7}

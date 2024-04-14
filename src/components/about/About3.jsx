@@ -14,7 +14,7 @@ function About3() {
         </div>
         <div className="about-left">
           <div className="about-img  wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <img className="img-fluid magnetic-item" src="assets/img/home-3/home3-about-1.png" alt="" />
+            <img className="img-fluid magnetic-item" src="assets/img/home-3/home3-about-1.jpg" alt="" />
           </div>
           <div className="about-content wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
             <h2>Unlock the potential of your business.</h2>
@@ -36,7 +36,7 @@ function About3() {
       <div className="col-lg-3">
         <div className="about-right">
           <div className="about-img wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <img className="img-fluid magnetic-item" src="assets/img/home-3/home3-about-2.png" alt="" />
+            <img className="img-fluid magnetic-item" src="assets/img/home-3/home3-about-2.jpg" alt="" />
           </div>
           <div className="about-exprience d-flex align-items-center justify-content-center wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div className="exp-text">

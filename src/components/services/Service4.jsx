@@ -60,7 +60,7 @@ function Service4() {
               </svg>
             </div>
             <div className="services-content">
-              <h3><Link legacyBehavior href="/service-details"><a>Cloud solutions</a></Link></h3>
+              <h3><Link legacyBehavior href="/service-details"><a>Content</a></Link></h3>
               <p>Cloud solutions refer to the use of cloud computing technology to provide services and solutions over the internet.</p>
               <div className="services-btn">
               <Link legacyBehavior  href="/service-details">

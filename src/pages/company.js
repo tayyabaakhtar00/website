@@ -19,12 +19,12 @@ function AboutPage() {
       />
       <About3 />
       <Choose6 />
-      <Feature4 />
-      <Partnar4 />
-      <Testimonial3 />
+      {/* <Feature4 /> */}
+      {/* <Partnar4 />
+      <Testimonial3 /> */}
       <Home3Team />
-      <Home3Contact />
-      <Home3Blog />
+      {/* <Home3Contact />
+      <Home3Blog /> */}
     </Layout>
   );
 }

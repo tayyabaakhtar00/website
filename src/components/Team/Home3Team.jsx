@@ -16,7 +16,7 @@ function Home3Team() {
         <div className="col-lg-3 col-sm-6 experts wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="experts-card magnetic-item">
             <div className="experts-img">
-              <img className="img-fluid" src="assets/img/home-4/experts-01.png" alt="" />
+              <img className="img-fluid" src="assets/img/home-3/team-1.png" alt="" />
               <div className="expert-social">
                 <ul>
                   <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
@@ -35,7 +35,7 @@ function Home3Team() {
         <div className="col-lg-3 col-sm-6 experts wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
           <div className="experts-card magnetic-item">
             <div className="experts-img">
-              <img className="img-fluid" src="assets/img/home-4/experts-02.png" alt="" />
+              <img className="img-fluid" src="assets/img/home-3/team-4.png" alt="" />
               <div className="expert-social">
                 <ul>
                   <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
@@ -54,7 +54,7 @@ function Home3Team() {
         <div className="col-lg-3 col-sm-6 experts wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
           <div className="experts-card magnetic-item">
             <div className="experts-img">
-              <img className="img-fluid" src="assets/img/home-4/experts-03.png" alt="" />
+              <img className="img-fluid" src="assets/img/home-3/team-3.png" alt="" />
               <div className="expert-social">
                 <ul>
                   <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
@@ -73,7 +73,7 @@ function Home3Team() {
         <div className="col-lg-3 col-sm-6 experts wow animate fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
           <div className="experts-card magnetic-item">
             <div className="experts-img">
-              <img className="img-fluid" src="assets/img/home-4/experts-04.png" alt="" />
+              <img className="img-fluid" src="assets/img/home-3/team-4.png" alt="" />
               <div className="expert-social">
                 <ul>
                   <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
