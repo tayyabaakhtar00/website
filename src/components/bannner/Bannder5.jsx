@@ -27,7 +27,7 @@ function Bannder5() {
   return (
     <div className="banner-area-wrapper">
         <div className="company-name">
-          <h2>WCADTECH</h2>
+        <h2>Unify&#8209;Imagination</h2>
         </div>
         <div className="banner-area">
        
@@ -53,7 +53,7 @@ function Bannder5() {
             </div>
           </div>
           <div className="banner-text-slider">
-          <Marquee>  <h2 className="marquee_text"><img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve <img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve<img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve <img src="assets/img/home-5/star.svg" alt="" />We are Design Agency<img src="assets/img/home-5/star.svg" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star.svg" alt="" />We Help To Achieve</h2></Marquee>
+          <Marquee>  <h2 className="marquee_text"><img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve <img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve<img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve <img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve</h2></Marquee>
           </div>
         </div>
       </div>

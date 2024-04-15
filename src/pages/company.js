@@ -13,9 +13,9 @@ function AboutPage() {
   return (
     <Layout>
       <Breadcrumb
-        pageList="About"
+        pageList="Company"
         title="Get To Know About WCAD"
-        pageName="ABOUT"
+        pageName="Company"
       />
       <About3 />
       <Choose6 />
