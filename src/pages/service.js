@@ -13,6 +13,7 @@ function ServicePage() {
       />
       <div className="home3-solution-section sec-mar">
         <div className="container">
+        <h2>Creative & Quality is our services</h2>
           <div className="row justify-content-center g-4">
             <div
               className="col-lg-6 col-md-6 col-sm-10 wow animate fadeInUp"
