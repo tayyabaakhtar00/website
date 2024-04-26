@@ -147,7 +147,7 @@ video {
 
 .sec-mar {
   margin: 60px 0;
-  text-align: center;
+  /* text-align: center; */
   color: white;
 }
 @media (max-width: 991px) {
@@ -515,6 +515,10 @@ video {
 }
 .header-area2.style-2 .header-logo {
   padding: 25px 0;
+}
+.header-logo{
+  width: 160px;
+  height: 160px;
 }
 @media (max-width: 1199px) {
   .header-area2.style-2 .header-contact {
@@ -2688,7 +2692,7 @@ banner-heading{
   background-attachment: fixed;
   width: 100%;
   max-width: 95px;
-  padding: 50px 22px;
+  padding: 15px 22px;
   position: fixed;
   background-color: transparent;
   top: 0px;
@@ -2699,7 +2703,7 @@ banner-heading{
   z-index: 2;
   transition: 0.55s ease;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
@@ -2707,7 +2711,7 @@ banner-heading{
 @media (max-width: 767px) {
   .main-container .sidebar-wrapper {
     max-width: 70px;
-    padding: 50px 9px;
+    padding: 10px 9px;
   }
 }
 @media (max-width: 991px) {
@@ -2716,7 +2720,8 @@ banner-heading{
   }
 }
 .main-container .sidebar-wrapper .header-logo a img {
-  max-width: unset;
+  width: full;
+  height: full;
 }
 .main-container .sidebar-wrapper .sidebar-button {
   height: 42px;
@@ -2861,11 +2866,64 @@ banner-heading{
 .main-container .main-content .header5 .sidebar-button:hover span::after {
   background-color: var(--theme-color);
 }
+.banner{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--white-color);
+  padding-top: 20px;
+}
+.banner .banner-title .banner-content p{
+  color: var(--white-color);
+}
 .main-container .main-content .banner-area-wrapper {
-  /* background-image: url(../img/home-5/home5-bg.png), linear-gradient(#1d1d1d, #1d1d1d); */
-  /* background-repeat: no-repeat;
+  /* background-image: url(../img/banner-img.jpeg);  */
+  background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; */
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-color: #2A3E5A;
+  height: 100vh;
+  margin-bottom: 40px;
+}
+.main-container .main-content .banner-area {
+  /* background-image: url(../img/banner-img.jpeg);  */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-color: #2A3E5A;
+
+  margin-bottom: 40px;
+}
+.comingsoon-pic{
+  height: 300px;
+  width: 100%;
+}
+.container-border{
+  border: 1px solid whitesmoke;
+  margin: 20px;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 2s infinite;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-container .main-content .banner-area-wrappers {
+  background-image: url(../img/banner-img.jpeg); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   background-color: #2A3E5A;
@@ -2886,17 +2944,20 @@ banner-heading{
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     max-width: 220px;
+    padding-block: 9%;
   }
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     max-width: 220px;
+    padding-block: 10%;
   }
 }
 @media (max-width: 1199px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     display: none;
     visibility: hidden;
+    padding-block: 10%;
   }
 }
 .main-container .main-content .banner-area-wrapper .company-name h2 {
@@ -2929,7 +2990,7 @@ banner-heading{
   display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: center;
+    align-items:flex-start;
     height: 100vh;
    
   
@@ -3093,21 +3154,21 @@ display: flex;
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-content {
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-content {
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-content {
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
 }
 @media (max-width: 767px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-content {
-    padding-left: 5px;
+    /* padding-left: 5px; */
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-content p {
@@ -3240,6 +3301,14 @@ display: flex;
   }
 }
 .main-container .main-content .banner-area-wrapper  .banner-text-slider {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background: #E9E9E9;
+  padding: 15px 15px;
+  width: 100%;
+  overflow: hidden;
+}
+.main-container .main-content .banner-area  .banner-text-slider {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background: #E9E9E9;
@@ -8907,7 +8976,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 
 .breadcrumbs {
   position: relative;
-  
+  /* background-image: url(../img/banner-img.jpeg), linear-gradient(#1d1d1d, #1d1d1d); */
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
@@ -8966,7 +9035,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 205px 0px 160px;
+  padding: 120px 65px 250px;
 }
 @media (max-width: 576px) {
   .breadcrumbs .breadcrumb-wrapper {
@@ -8976,6 +9045,9 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 .breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt {
   position: relative;
   text-align: center;
+}
+.breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt p{
+color: white;
 }
 .breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt > span {
   font-family: var(--font-saira);
@@ -9013,7 +9085,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   transform: translateY(-50%);
 }
 .breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt h1 {
-  font-size: 54px;
+  font-size: 38px;
   font-weight: 700;
   color: var(--white-color);
   text-transform: capitalize;
@@ -9021,7 +9093,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 @media (max-width: 576px) {
   .breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt .breadcrumb-list {

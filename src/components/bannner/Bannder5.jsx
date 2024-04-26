@@ -33,9 +33,9 @@ function Bannder5() {
        
           <div className="banner-title ">
           <h1><span className="banner-heading">Unlock  </span><br/>to your Business your growth & the future.</h1>
-          </div>
+      
           <div className="banner-content">
-            <div className="row">
+            <div className="">
               <div className="col-lg-12">
               <p>Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
                 <div className="scroll-and-social-area">
@@ -46,7 +46,7 @@ function Bannder5() {
                     </a>
                   </div>
                   <div className="swiper-pagination1 two " />
-                </div>
+                </div>    </div>
              
               </div>
            

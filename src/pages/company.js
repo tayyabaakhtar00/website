@@ -14,8 +14,10 @@ function AboutPage() {
     <Layout>
       <Breadcrumb
         pageList="Company"
-        title="Get To Know About WCAD"
+        title="Get To Know About "
         pageName="Company"
+        Paragraph="Do you need to know more about our business?"
+        backgroundImage="../assets/img/banner-img.jpeg"
       />
       <About3 />
       <Choose6 />

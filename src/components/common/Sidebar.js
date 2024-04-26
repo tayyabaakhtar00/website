@@ -55,7 +55,7 @@ function Sidebar( { isMenuOpen, toggleMenu  }) {
           </li>
           <li className="menu-item"><Link legacyBehavior href="/company" data-hover="Company"><a>Company</a></Link></li>
           <li className="menu-item-has-children menu-item">
-            <Link legacyBehavior href="/service" data-hover="Service"><a>Service</a></Link>
+            <Link legacyBehavior href="/service" data-hover="Service">Service</Link>
             {/* <i className={`bi  dropdown-icon2 ${state.activeMenu === "service" ? "bi-dash-lg" : "bi-plus-lg"}`}   onClick={() => collapseMenu("service")}/> */}
             {/* <ul className={`sub-menu ${state.activeMenu === "service" ? "d-block" : ""}`}>
               <li><Link legacyBehavior href="/service"><a>Service 01</a></Link></li>

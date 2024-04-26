@@ -1,11 +1,34 @@
 import React, { useState } from 'react'
 import ModalVideo from 'react-modal-video'
+import { useMemo } from "react";
+import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
+import Marquee from "react-fast-marquee";
+SwiperCore.use([Pagination, Autoplay, EffectFade]);
 function About5() {
+  const slider = useMemo(()=>{
+    return {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      speed: 3000,
+      effect: 'fade',
+      autoplay: {
+          delay: 2500
+      },
+      pagination: {
+          el: ".swiper-pagination1",
+          clickable: true,
+      },
+      fadeEffect: {
+          crossFade: true,
+      },
+    }
+},[])
   const [isOpen, setOpen] = useState(false)
   return (
-    <div className="home5-about-area pt-130 mb-130 b-2" id="home5-about-area">
-    <div className="container home5-about-area-container">
-      <div className="row g-4 gy-5">
+    <div className="container">
+    <div className="  container-border">
+      {/* <div className="row g-4 gy-5">
         <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="about-content">
             <div className="section-title-5">
@@ -56,8 +79,38 @@ function About5() {
             </div>
           </div>
         </div>
+      </div> */}
+   <div className="comingsoon-pic" >
+      <img src="assets/img/blog-7.jpg" alt="" />   </div>
+      <div className="banner-area">
+      <div className="banner-text-slider">
+  <h2 className="marquee_text blink">Exciting News: Online Seminar!</h2>
+</div>
+<div className="banner">
+  <div className="banner-title">
+    <h1>
+    <span className="banner-heading">Unlock the Power of Virtual IT Technology</span>.
+
+    </h1>
+    <div className="banner-content">
+      <div className="col-lg-12">
+       
+        <p>Join our online seminar to discover how our smart software technology can accelerate your business growth! </p>
+        <p> Register yourself now for this exciting opportunity.</p>
       </div>
-    </div>
+   
+
+
+             
+          
+           
+            </div>
+          </div>
+       
+        </div>
+      </div>
+      </div>
+ 
     <React.Fragment>
 			<ModalVideo  style={{ overlay: { zIndex: 9999 } }} channel='youtube' autoplay isOpen={isOpen} videoId="JSIwZ_tEP9o" onClose={() => setOpen(false)} />
 		</React.Fragment>

@@ -17,7 +17,7 @@ function Home3Blog() {
       <div className="col-lg-4 col-md-6 wow animate fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
         <div className="single-blog magnetic-item">
           <div className="blog-img">
-            <img className="img-fluid" src="assets/img/home-3/home3-blog-01.png" alt="" />
+            <img className="img-fluid" src="assets/img/home-5/blog-6.jpg" alt="" />
             <div className="blog-tag">
               <Link legacyBehavior href="/blog"><a>Web development</a></Link>
             </div>

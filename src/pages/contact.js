@@ -7,8 +7,10 @@ function Contactpage() {
     <Layout>
       <Breadcrumb
         pageList="Contact"
-        title="For Any Querry"
-        pageName="CONTACT"
+        title="For Any Query Contact "
+        pageName="Meet us"
+        Paragraph="We 're here for any query"
+        backgroundImage="../assets/img/banner-img5.jpeg"
       />
       <div className="contact-page-wrap sec-mar">
         <div className="container">

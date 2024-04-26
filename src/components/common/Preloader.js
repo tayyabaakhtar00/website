@@ -406,6 +406,8 @@ function Preloader() {
         <div className="loader-line-mask">
           <div className="loader-line" />
         </div>
+        
+        {/* <img  className="" src="assets/img/logo-blue.jpeg" alt="" />   */}
         <svg width={50} height={50} viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fillRule="evenodd" clipRule="evenodd" d="M31.5875 7.80132C26.1756 2.71548 18.9772 3.33531 13.0177 7.36702C12.9433 7.45181 12.4808 7.69025 12.9963 6.94836C24.4371 -5.54919 45.4795 11.5151 33.7252 25.7347C36.3568 20.0872 37.0161 12.9032 31.5879 7.80144L31.5875 7.80132Z" fill="#06D889" />
           <path fillRule="evenodd" clipRule="evenodd" d="M26.7504 1.91075C8.15888 -3.63601 -7.81139 25.1051 12.8958 38C-10.3418 27.992 1.07241 -2.40195 21.5296 0.151704C23.1991 0.358215 25.7562 1.14769 26.7503 1.91051L26.7504 1.91075Z" fill="#06D889" />

@@ -10,6 +10,8 @@ function ServicePage() {
         pageList="Servives"
         title="Our Providing Services"
         pageName="SERVIVES"
+        Paragraph="We delivered unique values of your work"
+        backgroundImage="../assets/img/banner-img.jpeg"
       />
       <div className="home3-solution-section sec-mar">
         <div className="container">

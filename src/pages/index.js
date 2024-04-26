@@ -33,21 +33,21 @@ function HomepageThree() {
           <div className="header-logo">
             <Link legacyBehavior href="/">
               <a>
-                {/* <img src="assets/img/sm-logo.svg" alt="" /> */}
+                <img src="assets/img/logo-blue.jpeg" alt="" />
               </a>
             </Link>
           </div>
           <div className="sidebar-button mobile-menu-btn" onClick={toggleMenu}>
             <span />
           </div>
-          {/* <div className="banner-area">
+          <div className="banner-area">
           <div className="social-area">
             <ul>
               <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
               <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
               <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
             </ul>
-          </div></div> */}
+          </div></div>
        
         </div>
         <div className="main-content">
@@ -67,12 +67,13 @@ function HomepageThree() {
             </div>
           </header>
           <Bannder5 />
-          {/* <About5 />
-          <Service5 />
+         
+         <About5 />
+          {/* <Service5 />
           <WhatWeDo5 />
        
           <Testimonial5 />   
-          <Footer5 /> */}
+          <Footer5 />  */}
         </div>
       </div>
     </>

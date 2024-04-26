@@ -30,22 +30,22 @@ function Layout({ children }) {
           <div className="header-logo">
             <Link legacyBehavior href="/">
               <a>
-                {/* <img src="assets/img/sm-logo.svg" alt="" /> */}
+                <img src="assets/img/logo-blue.jpeg" alt="" />
               </a>
             </Link>
           </div>
           <div className="sidebar-button mobile-menu-btn" onClick={toggleMenu}>
             <span />
           </div>
-          {/* <div className="banner-area">
+          <div className="banner-area">
           <div className="social-area">
-            <ul>
+            {/* <ul>
               <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
               <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
               <li><a href="https://www.pinterest.com/"><i className="bx bxl-pinterest-alt" /></a></li>
               <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
-            </ul>
-          </div></div> */}
+            </ul> */}
+          </div></div>
         </div>
         <div className="main-content">
           <header className="header5 d-lg-none d-flex">

@@ -11,8 +11,9 @@ function BlogPgage() {
         pageList="Blog "
         title="Exploring The WCAD Blog"
         pageName="BLOG "
+        backgroundImage="../assets/img/banner-img.jpeg"
       />
-      <BlogBanner />
+      {/* <BlogBanner /> */}
       <div className="home3-blog-area sec-mar">
         <div className="container">
           <div className="row g-lg-4 gy-5">
