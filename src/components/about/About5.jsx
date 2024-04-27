@@ -80,9 +80,13 @@ function About5() {
           </div>
         </div>
       </div> */}
-   <div className="comingsoon-pic" >
-      <img src="assets/img/blog-7.jpg" alt="" />   </div>
-      <div className="banner-area">
+      <div className="comingsoon-pic">
+  <div className="banner-video-container">
+    <video src="/assets/img/technology-video.mp4" autoPlay loop muted className="banner-video"></video>
+  </div>
+</div>
+
+      <div className="banner-area coming-soon-area">
       <div className="banner-text-slider">
   <h2 className="marquee_text blink">Exciting News: Online Seminar!</h2>
 </div>

@@ -1,5 +1,7 @@
 import React, { useMemo } from "react";
 import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 function Bannder5() {
@@ -31,10 +33,10 @@ function Bannder5() {
        
           <div className="banner-title ">
           <h1><span className="banner-heading">Unlock  </span><br/>to your Business your growth & the future.</h1>
-          </div>
-          <div className="banner-content col-lg-12">
-            <div className="row">
-              <div className="">
+      
+          <div className="banner-content">
+            <div className="">
+              <div className="col-lg-12">
               <p>Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
                 <div className="scroll-and-social-area">
                   <div className="scroll-down-area">
@@ -54,7 +56,7 @@ function Bannder5() {
           <Marquee>  <h2 className="marquee_text"><img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve <img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve<img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve <img src="assets/img/home-5/star3.png" alt="" />We are Design Agency<img src="assets/img/home-5/star3.png" alt="" />Creative &amp; Clean Design<img src="assets/img/home-5/star3.png" alt="" />We Help To Achieve</h2></Marquee>
           </div>
         </div>
-   
+      </div>
   )
 }
 

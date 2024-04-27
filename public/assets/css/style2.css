@@ -2898,14 +2898,32 @@ banner-heading{
 
   margin-bottom: 40px;
 }
-.comingsoon-pic{
+/* .comingsoon-pic{
   height: 300px;
   width: 100%;
+} */
+.banner-video-container {
+  position: relative;
+  width: 100%; /* Ensure the video container takes up the full width of its parent */
+  max-width: 100%; /* Ensure the video doesn't exceed the width of its parent */
+  overflow: hidden; /* Hide any overflowing content */
+  height: 400px;
 }
+
+.banner-video {
+  width: 100%; /* Make the video fill the width of its container */
+  height: auto; /* Ensure the height adjusts proportionally based on the width */
+}
+
 .container-border{
-  border: 1px solid whitesmoke;
+ 
   margin: 20px;
 }
+.coming-soon-area{
+  border: 1px solid whitesmoke;
+  padding-bottom: 20px;
+}
+
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
