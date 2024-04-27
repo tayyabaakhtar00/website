@@ -26,7 +26,7 @@ function About5() {
 },[])
   const [isOpen, setOpen] = useState(false)
   return (
-    <div className="container">
+    <div className="container" id="home5-about-area">
     <div className="  container-border">
       {/* <div className="row g-4 gy-5">
         <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
