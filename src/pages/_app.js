@@ -14,6 +14,20 @@ import "node_modules/react-modal-video/css/modal-video.css";
 import Preloader from "@/components/common/Preloader";
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    const threeScript = document.createElement("script");
+    threeScript.setAttribute("id", "threeScript");
+    threeScript.setAttribute(
+      "src",
+      "https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"
+    );
+    document.getElementsByTagName("head")[0].appendChild(threeScript);
+    return () => {
+      if (threeScript) {
+        threeScript.remove();
+      }
+    };
+  }, []);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(false);

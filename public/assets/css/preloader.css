@@ -7,9 +7,6 @@
     position: relative;
     min-height: 100vh;
     max-height: 100vh;
-    width: 100%;
-    position: fixed;
-    width: 100%;
     height: 100%;
     z-index: 99999;
     background: #000;
@@ -43,7 +40,7 @@
 
 
 .preloader {
-    background: #2c2d44;
+    background: #2A3E5A;
 }
 
 .loader-circle {
@@ -76,7 +73,7 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    box-shadow: inset 0 0 0 1px rgba(6, 216, 137, 0.5);
+    box-shadow: inset 0 0 0 1px rgba(18, 37, 134, 0.5);
 }
 
 #particles-background,
@@ -92,7 +89,7 @@
     background: #2c2d44;
     background-image: -moz-linear-gradient(45deg, #1d1d1d 2%, #002025 100%);
     background-image: -webkit-linear-gradient(45deg, #1d1d1d 2%, #002025 100%);
-    background-image: linear-gradient(45deg, #1d1d1d 2%, #002025 100%);
+    background-image: linear-gradient(45deg, #2a3e5a 2%, #080f17 100%);
 }
 
 @keyframes rotate {

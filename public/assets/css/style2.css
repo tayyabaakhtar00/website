@@ -1,8 +1,10 @@
-/*===========================
-     01.COMMON CSS 
-===========================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
-  --font-saira: "Saira", sans-serif;
+  --font-saira: "montserrat";
   --white-color: #fff;
   --black-color: #000;
   --black-color2: #1D1D1D;
@@ -15,41 +17,6 @@
   --base-color:#2A3E5A;
 }
 
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-Black.ttf) format("truetype");
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-ExtraBold.ttf) format("truetype");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-SemiBold.ttf) format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Saira";
-  src: url(../fonts/Saira-Thin.ttf) format("truetype");
-  font-weight: 300;
-}
 .tt-style-switch {
   height: 34px;
   width: 34px;
@@ -82,7 +49,7 @@ body {
 
 body {
   font-size: 16px;
-  font-family: var(--font-saira);
+  
 }
 body.bg-dark-5 {
   background: #2A3E5A;
@@ -94,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -232,7 +199,7 @@ video {
   width: 100%;
 }
 .section-title-3 h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
@@ -241,7 +208,7 @@ video {
   margin-bottom: 7px;
 }
 .section-title-3 p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -260,7 +227,7 @@ video {
   width: 100%;
 }
 .section-title-4 > span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.05em;
@@ -271,7 +238,7 @@ video {
 }
 .section-title-4 h2 {
   margin-bottom: 5px;
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 42px;
   line-height: 1.4;
@@ -293,7 +260,7 @@ video {
   color: var(--theme-color);
 }
 .section-title-4 p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -307,7 +274,7 @@ video {
 }
 
 .section-title-5 > span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.03em;
@@ -342,7 +309,7 @@ video {
   transform: translateY(-50%);
 }
 .section-title-5 h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 50px;
   letter-spacing: 0.01em;
@@ -374,7 +341,7 @@ video {
   width: 100%;
 }
 .section-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -396,7 +363,7 @@ video {
 }
 .section-title-6 h2 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 60px;
   letter-spacing: 0.01em;
@@ -408,7 +375,7 @@ video {
   }
 }
 .section-title-6 span {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 110px;
   letter-spacing: 0.01em;
@@ -479,7 +446,7 @@ video {
   }
 }
 .header-area2.style-2 .header-btn a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -527,7 +494,7 @@ video {
   }
 }
 .header-area2.style-2 .header-contact span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.03em;
@@ -541,7 +508,7 @@ video {
   margin-bottom: 0;
 }
 .header-area2.style-2 .header-contact h6 a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -589,7 +556,7 @@ video {
 .header-area2 .mobile-menu-form .hotline .hotline-info span, .header-area2 .mobile-menu-form .hotline .email-info span, .header-area2 .mobile-menu-form .email .hotline-info span, .header-area2 .mobile-menu-form .email .email-info span {
   font-size: 12px;
   font-weight: 400;
-  font-family: var(--font-saira);
+  
   color: var(--theme-color);
 }
 .header-area2 .mobile-menu-form .hotline .hotline-info h6, .header-area2 .mobile-menu-form .hotline .email-info h6, .header-area2 .mobile-menu-form .email .hotline-info h6, .header-area2 .mobile-menu-form .email .email-info h6 {
@@ -598,7 +565,7 @@ video {
 .header-area2 .mobile-menu-form .hotline .hotline-info h6 a, .header-area2 .mobile-menu-form .hotline .email-info h6 a, .header-area2 .mobile-menu-form .email .hotline-info h6 a, .header-area2 .mobile-menu-form .email .email-info h6 a {
   font-size: 15px;
   font-weight: 400;
-  font-family: var(--font-saira);
+  
   color: var(--white-color);
   transition: 0.35s;
 }
@@ -718,7 +685,7 @@ video {
   text-transform: capitalize;
   padding: 32px 20px;
   position: relative;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 14px;
   transition: all 0.5s ease-out 0s;
@@ -1094,7 +1061,7 @@ video {
 }
 
 .primary-btn3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -1132,7 +1099,7 @@ video {
 }
 
 .primary-btn4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -1177,7 +1144,7 @@ video {
 }
 
 .primary-btn5 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.03em;
@@ -1212,7 +1179,7 @@ video {
 }
 
 .primary-btn6 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 17px;
   line-height: 27px;
@@ -1252,7 +1219,7 @@ video {
 }
 
 .primary-btn7 {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.03em;
@@ -1296,7 +1263,7 @@ video {
 }
 
 .primary-btn8 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.03em;
@@ -1337,7 +1304,7 @@ video {
 }
 
 .primary-btn9 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 13px;
   display: flex;
@@ -1467,7 +1434,7 @@ video {
 }
 .header-sidebar .sidebar-content p {
   font-size: 18px;
-  font-family: var(--font-saira);
+  
   margin-bottom: 0;
   color: var(--white-color);
 }
@@ -1668,7 +1635,7 @@ video {
   }
 }
 .banner-area3 .scroll-down a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -1794,7 +1761,7 @@ video {
   }
 }
 .banner-area3 .banner-wrapper .banner-content h1 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 75px;
   line-height: 1.32;
@@ -1824,7 +1791,7 @@ video {
   }
 }
 .banner-area3 .banner-wrapper .banner-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -2103,7 +2070,7 @@ video {
   width: 100%;
 }
 .banner-area4 .banner-content h1 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 70px;
   line-height: 1.3;
@@ -2138,7 +2105,7 @@ video {
   color: var(--theme-color);
 }
 .banner-area4 .banner-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -2275,7 +2242,7 @@ video {
   width: 100%;
 }
 .banner-area4 .background-text-slider h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 98px;
   line-height: 154px;
@@ -2309,7 +2276,7 @@ video {
   }
 }
 .banner-area4 .scroll-down a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 17px;
   text-transform: capitalize;
@@ -2424,7 +2391,9 @@ video {
   /* Handle */
   /* Handle on hover */
 }
-
+.Home_main__EtNt2{
+  padding: 0;
+}
 
 .main-nav-wrapper .main-nav2::before {
   content: "WCAD ";
@@ -2435,7 +2404,7 @@ video {
   font-size: 220px;
   font-weight: 700;
   line-height: 1;
-  font-family: var(--font-saira);
+  
   color: var(--white-color);
   opacity: 0.1;
   z-index: 1;
@@ -2566,7 +2535,7 @@ video {
   font-size: 3rem;
   font-weight: 700;
   color: var(--white-color);
-  font-family: var(--font-saira);
+  
   transition: all 0.6s ease;
   font-style: normal;
   text-decoration: none;
@@ -2638,7 +2607,7 @@ banner-heading{
   text-transform: capitalize;
   -webkit-text-stroke: unset;
   -webkit-text-fill-color: unset;
-  font-family: var(--font-saira);
+  
   color: var(--white-color);
 }
 .main-nav-wrapper .main-nav2.show-menu {
@@ -2883,7 +2852,7 @@ banner-heading{
   background-size: cover;
   position: relative;
   overflow: hidden;
-  background-color: #2A3E5A;
+  /* background-color: #2A3E5A; */
   height: 100vh;
   margin-bottom: 40px;
 }
@@ -2894,8 +2863,9 @@ banner-heading{
   background-size: cover;
   position: relative;
   overflow: hidden;
-  background-color: #2A3E5A;
-
+  /* background-color: #2A3E5A; */
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
   margin-bottom: 40px;
 }
 /* .comingsoon-pic{
@@ -2907,7 +2877,10 @@ banner-heading{
   width: 100%; /* Ensure the video container takes up the full width of its parent */
   max-width: 100%; /* Ensure the video doesn't exceed the width of its parent */
   overflow: hidden; /* Hide any overflowing content */
-  height: 400px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
 }
 
 .banner-video {
@@ -2923,7 +2896,9 @@ banner-heading{
   border: 1px solid whitesmoke;
   padding-bottom: 20px;
 }
-
+.marquee_text {
+  color: var(--base-color);
+}
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
@@ -2936,7 +2911,6 @@ banner-heading{
   justify-content: center;
   text-align: center;
 }
-
 .main-container .main-content .banner-area-wrappers {
   background-image: url(../img/banner-img.jpeg); 
   background-repeat: no-repeat;
@@ -2957,42 +2931,45 @@ banner-heading{
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-block: 100px;
+  display: flex; /* Use flexbox to center the text vertically and horizontally */
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     max-width: 220px;
-    padding-block: 9%;
+  
   }
 }
 @media (max-width: 1399px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     max-width: 220px;
-    padding-block: 10%;
+   
   }
 }
 @media (max-width: 1199px) {
   .main-container .main-content .banner-area-wrapper .company-name {
     display: none;
     visibility: hidden;
-    padding-block: 10%;
+   
   }
 }
 .main-container .main-content .banner-area-wrapper .company-name h2 {
-  font-family: "Saira";
+
   font-style: normal;
   font-weight: 600;
-  font-size: 120px;
+  /* font-size: 120px; */
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color);
-  opacity: 0.3;
+  color: #E4E4E4;
+  /* opacity: 0.3; */
   transform: rotate(90deg);
-  margin-bottom: 0;
+  transform-origin: center center; /* Set the transform origin to the center */
+  margin: 0 auto; /* Center horizontally */
  
 }
-@media (min-width: 1400px) and (max-width: 1599px) {
+/* @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .company-name h2 {
  
     font-size: 54px;
@@ -3003,11 +2980,11 @@ banner-heading{
   
     font-size: 55px;
   }
-}
+} */
 .main-container .main-content .banner-area-wrapper .banner-areas {
   display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-between;
     align-items:flex-start;
     height: 100vh;
    
@@ -3133,7 +3110,7 @@ display: flex;
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-title h1 {
-  font-family: var(--font-saira);
+ 
   font-weight: 700;
   font-size: 45px;
   line-height: 1.2;
@@ -3190,7 +3167,7 @@ display: flex;
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-content p {
-  font-family: var(--font-saira);
+
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -3244,7 +3221,7 @@ display: flex;
   }
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-content .scroll-and-social-area .scroll-down-area a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -3322,7 +3299,7 @@ display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background: #E9E9E9;
-  padding: 15px 15px;
+  /* padding: 15px 15px; */
   width: 100%;
   overflow: hidden;
 }
@@ -3330,13 +3307,13 @@ display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background: #E9E9E9;
-  padding: 15px 15px;
+  /* padding: 15px 15px; */
   width: 100%;
   overflow: hidden;
 }
 .main-container .main-content .banner-area-wrapper  .banner-text-slider h2 {
   width: 100%;
-  font-family: var(--font-saira);
+  ;
   font-weight: 500;
   font-size: 27px;
   letter-spacing: 0.03em;
@@ -3485,7 +3462,7 @@ display: flex;
   }
 }
 .banner-area6 .banner-wrap .banner-content h1 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 85px;
   line-height: 1.3;
@@ -3531,7 +3508,7 @@ display: flex;
   }
 }
 .banner-area6 .banner-wrap .banner-content P {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
@@ -3673,7 +3650,7 @@ display: flex;
   }
 }
 .home4-about-section .about-left-content .about-feature ul li {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -3735,7 +3712,7 @@ display: flex;
   margin-bottom: 10px;
 }
 .home4-services-section .single-service-card .services-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 27px;
   letter-spacing: 0.02em;
@@ -3747,7 +3724,7 @@ display: flex;
   color: var(--theme-color);
 }
 .home4-services-section .single-service-card .services-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
@@ -3804,7 +3781,7 @@ display: flex;
   line-height: 1.1;
 }
 .home4-work-section .single-work .work-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 28px;
   letter-spacing: 0.02em;
@@ -3822,7 +3799,7 @@ display: flex;
   color: var(--theme-color);
 }
 .home4-work-section .single-work .work-content span {
-  font-family: var(--font-saira);
+  
   font-style: italic;
   font-weight: 500;
   font-size: 15px;
@@ -3907,7 +3884,7 @@ display: flex;
   }
 }
 .home4-feature-area .counter-area .single-counter .content .number h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 38px;
   text-transform: capitalize;
@@ -3915,7 +3892,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home4-feature-area .counter-area .single-counter .content .number span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 20px;
   line-height: 1;
@@ -3923,7 +3900,7 @@ display: flex;
   color: var(--white-color);
 }
 .home4-feature-area .counter-area .single-counter .content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.02em;
@@ -3949,7 +3926,7 @@ display: flex;
   }
 }
 .home4-trusted-client-area p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -4037,7 +4014,7 @@ display: flex;
   border-radius: 50%;
 }
 .home4-testimonial-section .testimonial-card4 .testimonial-top .author-area .author-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 23px;
   line-height: 30px;
@@ -4045,7 +4022,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home4-testimonial-section .testimonial-card4 .testimonial-top .author-area .author-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -4063,7 +4040,7 @@ display: flex;
   }
 }
 .home4-testimonial-section .testimonial-card4 .testimonial-top .review-date-and-time p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   text-align: right;
@@ -4077,7 +4054,7 @@ display: flex;
   }
 }
 .home4-testimonial-section .testimonial-card4 .testimonial-top .review-date-and-time span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 12px;
   text-align: right;
@@ -4088,7 +4065,7 @@ display: flex;
   margin-bottom: 28px;
 }
 .home4-testimonial-section .testimonial-card4 .testimonial-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
@@ -4155,7 +4132,7 @@ display: flex;
   }
 }
 .home4-pricing-plan .section-title-4 nav .nav-tabs .nav-link {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 17px;
   text-transform: capitalize;
@@ -4176,7 +4153,7 @@ display: flex;
   }
 }
 .home4-pricing-plan .section-title-4 nav .nav-tabs .nav-link span {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 9px;
   text-transform: uppercase;
@@ -4213,7 +4190,7 @@ display: flex;
   }
 }
 .home4-pricing-plan .pricing-card .pricing-top span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 20px;
   text-transform: capitalize;
@@ -4224,14 +4201,14 @@ display: flex;
 }
 .home4-pricing-plan .pricing-card .pricing-top h2 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 60px;
   line-height: 44px;
   color: var(--white-color);
 }
 .home4-pricing-plan .pricing-card .pricing-top h2 sup {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 25px;
   letter-spacing: 0.03em;
@@ -4261,7 +4238,7 @@ display: flex;
 .home4-pricing-plan .pricing-card .pricing-content ul li {
   display: flex;
   justify-content: space-between;
-  font-family: var(--font-saira);
+  
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -4367,7 +4344,7 @@ display: flex;
   text-align: center;
 }
 .home4-experts-section .single-team .team-content h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -4375,7 +4352,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home4-experts-section .single-team .team-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   color: #B5B5B5;
@@ -4478,7 +4455,7 @@ display: flex;
   padding-top: 22px;
 }
 .home4-experts-section .experts-card .experts-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   color: var(--white-color);
@@ -4489,7 +4466,7 @@ display: flex;
   color: var(--theme-color);
 }
 .home4-experts-section .experts-card .experts-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   color: #b5b5b5;
@@ -4537,7 +4514,7 @@ display: flex;
   margin-bottom: 10px;
 }
 .home4-insight-area .home4-insights-card .insight-content ul li a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   text-transform: capitalize;
@@ -4550,7 +4527,7 @@ display: flex;
   margin-bottom: 14px;
 }
 .home4-insight-area .home4-insights-card .insight-content h4 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   line-height: 1.5;
@@ -4573,7 +4550,7 @@ display: flex;
 }
 .home4-insight-area .home4-insights-card .insight-content p {
   margin-bottom: 25px;
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 14px;
   line-height: 28px;
@@ -4634,7 +4611,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home4-contact-area .contact-wrapper .title {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 120px;
   line-height: 1;
@@ -4654,7 +4631,7 @@ display: flex;
   }
 }
 .home4-contact-area .contact-wrapper .content {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 220px;
   line-height: 1;
@@ -4705,7 +4682,7 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 25px;
   text-transform: capitalize;
@@ -4781,7 +4758,7 @@ display: flex;
   }
 }
 .home3-partner-area .partner-title h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 35px;
   line-height: 45px;
@@ -4882,7 +4859,7 @@ display: flex;
   color: #2A3E5A;
 }
 .home3-solution-section .solution-card .solution-content h4 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 27px;
   letter-spacing: 0.02em;
@@ -4899,7 +4876,7 @@ display: flex;
 
 
 .home3-solution-section .solution-card .solution-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -4913,7 +4890,7 @@ display: flex;
   padding-top: 28px;
 }
 .home3-solution-section .solution-card .solution-content .solution-feature li {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.02em;
@@ -5016,7 +4993,7 @@ display: flex;
   }
 }
 .home3-about-section .about-left .about-content h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 45px;
   line-height: 1.3;
@@ -5102,7 +5079,7 @@ display: flex;
   }
 }
 .home3-about-section .about-left .about-content .about-feature li h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -5121,7 +5098,7 @@ display: flex;
   }
 }
 .home3-about-section .about-left .about-content .about-feature li p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 14px;
   line-height: 25px;
@@ -5171,7 +5148,7 @@ display: flex;
   text-align: center;
 }
 .home3-about-section .about-right .about-exprience .years h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 45px;
   line-height: 38px;
@@ -5255,7 +5232,7 @@ display: flex;
   }
 }
 .home3-success-stories-area .success-storie-card .success-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.05em;
@@ -5279,7 +5256,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home3-success-stories-area .success-storie-card .success-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 26px;
   line-height: 1.4;
@@ -5423,7 +5400,7 @@ display: flex;
   border-radius: 50%;
 }
 .home3-testimonil-area .testimonial-card3 .testimonial-btm .author-area .author-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 23px;
   line-height: 30px;
@@ -5431,7 +5408,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home3-testimonil-area .testimonial-card3 .testimonial-btm .author-area .author-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -5447,7 +5424,7 @@ display: flex;
   }
 }
 .home3-testimonil-area .testimonial-card3 .testimonial-btm .review-date-and-time p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   text-align: right;
@@ -5456,7 +5433,7 @@ display: flex;
   line-height: 1;
 }
 .home3-testimonil-area .testimonial-card3 .testimonial-btm .review-date-and-time span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 12px;
   text-align: right;
@@ -5467,7 +5444,7 @@ display: flex;
   margin-bottom: 28px;
 }
 .home3-testimonil-area .testimonial-card3 .testimonial-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
@@ -5563,7 +5540,7 @@ display: flex;
   gap: 15px;
 }
 .home3-pricing-plan-area nav .nav-tabs .nav-link {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 17px;
   text-transform: capitalize;
@@ -5582,7 +5559,7 @@ display: flex;
   }
 }
 .home3-pricing-plan-area nav .nav-tabs .nav-link span {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 9px;
   text-transform: uppercase;
@@ -5614,7 +5591,7 @@ display: flex;
   }
 }
 .home3-pricing-plan-area .pricing-card .pricing-top span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 20px;
   text-transform: capitalize;
@@ -5625,14 +5602,14 @@ display: flex;
 }
 .home3-pricing-plan-area .pricing-card .pricing-top h2 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 60px;
   line-height: 44px;
   color: var(--white-color);
 }
 .home3-pricing-plan-area .pricing-card .pricing-top h2 sup {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 25px;
   letter-spacing: 0.03em;
@@ -5663,7 +5640,7 @@ display: flex;
   display: flex;
   align-items: center;
   gap: 7px;
-  font-family: var(--font-saira);
+  
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5710,7 +5687,7 @@ display: flex;
   position: relative;
 }
 .home3-pricing-plan-area .pricing-card.two .pricing-top .offer-tag h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
@@ -5788,7 +5765,7 @@ display: flex;
   padding-top: 115px;
 }
 .home3-contact-area .contact-wrapper .marquee_text {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 100px;
   letter-spacing: 0.03em;
@@ -5813,7 +5790,7 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 25px;
   text-transform: capitalize;
@@ -5906,7 +5883,7 @@ display: flex;
   text-align: center;
 }
 .home3-team-area .single-team .team-content h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
@@ -5914,7 +5891,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home3-team-area .single-team .team-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   color: #B5B5B5;
@@ -6017,7 +5994,7 @@ display: flex;
   padding-top: 22px;
 }
 .home3-team-area .experts-card .experts-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   color: var(--white-color);
@@ -6028,7 +6005,7 @@ display: flex;
   color: var(--theme-color);
 }
 .home3-team-area .experts-card .experts-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   color: #b5b5b5;
@@ -6074,7 +6051,7 @@ display: flex;
   right: 0;
 }
 .home3-blog-area .single-blog .blog-img .blog-tag a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 13px;
   text-transform: capitalize;
@@ -6126,7 +6103,7 @@ display: flex;
   margin-bottom: 12px;
 }
 .home3-blog-area .single-blog .blog-content .blog-meta li a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   text-transform: capitalize;
@@ -6140,7 +6117,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home3-blog-area .single-blog .blog-content h4 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   line-height: 1.5;
@@ -6157,7 +6134,7 @@ display: flex;
   color: var(--theme-color);
 }
 .home3-blog-area .single-blog .blog-content p {
-  font-family: var(--font-saira);
+  
   font-size: 15px;
   color: #B5B5B5;
   padding-top: 5px;
@@ -6171,7 +6148,7 @@ display: flex;
   gap: 10px;
 }
 .home3-blog-area .single-blog .blog-content .blog-footer .read-btn a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.03em;
@@ -6312,7 +6289,7 @@ display: flex;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -6480,7 +6457,7 @@ display: flex;
   margin-bottom: 15px;
 }
 .home5-services-section .solution-card .solution-content h4 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 27px;
   letter-spacing: 0.02em;
@@ -6495,7 +6472,7 @@ display: flex;
 }
 
 .home5-services-section .solution-card .solution-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
@@ -6523,7 +6500,7 @@ display: flex;
   width: 100%;
 }
 .home5-process-area .achievement-text-slider .marquee_text2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 40px;
   display: flex;
@@ -6552,7 +6529,7 @@ display: flex;
   transition: 0.5s;
 }
 .home5-process-area .single-process .sl h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 60px;
   letter-spacing: 0.03em;
@@ -6562,7 +6539,7 @@ display: flex;
   transition: 0.5s;
 }
 .home5-process-area .single-process .content h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 30px;
   text-transform: capitalize;
@@ -6576,7 +6553,7 @@ display: flex;
   }
 }
 .home5-process-area .single-process .content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -6609,14 +6586,14 @@ display: flex;
 }
 .home5-process-area .achievement-area .achievement-content h2 {
   margin-bottom: 5px;
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
   color: var(--theme-color);
 }
 .home5-process-area .achievement-area .achievement-content h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 30px;
   line-height: 1.3;
@@ -6777,7 +6754,7 @@ display: flex;
   padding-bottom: 0;
 }
 .home5-case-study .single-case-study .case-study-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -6795,7 +6772,7 @@ display: flex;
   margin-bottom: 0;
 }
 .home5-case-study .single-case-study .case-study-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 30px;
   line-height: 42px;
@@ -6853,7 +6830,7 @@ display: flex;
   }
 }
 .home5-testimonial-area .testimolial-left p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -6865,7 +6842,7 @@ display: flex;
   padding-top: 45px;
 }
 .home5-testimonial-area .testimolial-left .customar-review h6 {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 18px;
   color: var(--white-color);
@@ -6954,7 +6931,7 @@ display: flex;
   margin-bottom: 38px;
 }
 .home5-testimonial-area .testimonial-wrapper .testimonial-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 20px;
   line-height: 42px;
@@ -6968,14 +6945,14 @@ display: flex;
   }
 }
 .home5-testimonial-area .testimonial-wrapper .testimonial-btm .author-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 24px;
   color: #E4E4E4;
   margin-bottom: 3px;
 }
 .home5-testimonial-area .testimonial-wrapper .testimonial-btm .author-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.02em;
@@ -7027,7 +7004,7 @@ display: flex;
 }
 .home5-award-area .award-wrapper table thead tr td {
   padding: 35px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 20px;
   text-transform: capitalize;
@@ -7082,7 +7059,7 @@ display: flex;
 }
 .home5-award-area .award-wrapper table tbody tr td {
   padding: 32px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -7294,7 +7271,7 @@ display: flex;
   text-align: center;
 }
 .home5-team-section .single-team .team-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
@@ -7307,7 +7284,7 @@ display: flex;
   }
 }
 .home5-team-section .single-team .team-content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.5);
@@ -7367,7 +7344,7 @@ display: flex;
   margin-bottom: 10px;
 }
 .home5-blog-area .blog-wrapper .single-blog-card .blog-content ul li a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   text-transform: capitalize;
@@ -7380,7 +7357,7 @@ display: flex;
   margin-bottom: 10px;
 }
 .home5-blog-area .blog-wrapper .single-blog-card .blog-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 27px;
   line-height: 1.45;
@@ -7397,7 +7374,7 @@ display: flex;
   color: var(--theme-color);
 }
 .home5-blog-area .blog-wrapper .single-blog-card .blog-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
@@ -7483,7 +7460,7 @@ footer .footer-top .footer-top-content .footer-contect .icon svg {
   fill: var(--theme-color);
 }
 footer .footer-top .footer-top-content .footer-contect .content span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 13px;
   letter-spacing: 0.03em;
@@ -7495,7 +7472,7 @@ footer .footer-top .footer-top-content .footer-contect .content h6 {
   margin-bottom: 0;
 }
 footer .footer-top .footer-top-content .footer-contect .content h6 a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.03em;
@@ -7515,7 +7492,7 @@ footer .footer-widget .footer-contact h4 {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 23px;
   letter-spacing: 0.03em;
@@ -7525,7 +7502,7 @@ footer .footer-widget .footer-contact h4 svg {
   fill: var(--theme-color);
 }
 footer .footer-widget .footer-contact h6 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -7533,7 +7510,7 @@ footer .footer-widget .footer-contact h6 {
   margin-bottom: 20px;
 }
 footer .footer-widget .footer-contact a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -7553,7 +7530,7 @@ footer .footer-widget .footer-contact .form-inner input {
   background: rgba(27, 31, 35, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px 0px 0px 5px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 13px;
   color: #A4A4A4;
@@ -7583,7 +7560,7 @@ footer .footer-widget .widget-title {
   margin-bottom: 25px;
 }
 footer .footer-widget .widget-title h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   letter-spacing: 0.03em;
@@ -7602,7 +7579,7 @@ footer .footer-widget .menu-container ul li:last-child {
   margin-bottom: 0;
 }
 footer .footer-widget .menu-container ul li a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -7631,7 +7608,7 @@ footer .footer-btm .footer-btn-content {
 }
 footer .footer-btm .footer-btn-content .copyright-area p {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   color: #E4E4E4;
@@ -7714,7 +7691,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .review-and-counter-area .customar-review h6 {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 18px;
   color: var(--white-color);
@@ -7876,7 +7853,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 .review-and-counter-area .counter-area .single-counter .number h3 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 38px;
   text-transform: capitalize;
@@ -7888,7 +7865,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .review-and-counter-area .counter-area .single-counter .number span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 20px;
   text-transform: capitalize;
@@ -7902,7 +7879,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .review-and-counter-area .counter-area .single-counter p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.02em;
@@ -7976,7 +7953,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 15px;
 }
 .home6-solution-section .single-solution .sl h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 50px;
   letter-spacing: 0.03em;
@@ -7987,7 +7964,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 13px;
 }
 .home6-solution-section .single-solution .solution-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 27px;
   letter-spacing: 0.02em;
@@ -7995,7 +7972,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: #FFFFFF;
 }
 .home6-solution-section .single-solution .solution-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 14px;
   line-height: 30px;
@@ -8107,7 +8084,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-choose-section .choose-top .choose-title span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   text-transform: capitalize;
@@ -8128,7 +8105,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   background-color: var(--theme-color);
 }
 .home6-choose-section .choose-top .choose-title h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 45px;
   line-height: 1.3;
@@ -8190,7 +8167,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 22px;
 }
 .home6-choose-section .choose-btm .choose-left-content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 24px;
   line-height: 1.46;
@@ -8212,7 +8189,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-choose-section .choose-btm .choose-left-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -8245,7 +8222,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-choose-section .choose-btm .choose-left-content .sl h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 50px;
   line-height: 1;
@@ -8265,7 +8242,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.03em;
@@ -8319,7 +8296,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 .home6-choose-section .choose-btm .choose-feature ul li .single-feature .progress h3 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 30px;
   text-transform: capitalize;
@@ -8330,7 +8307,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   width: 100%;
 }
 .home6-choose-section .choose-btm .choose-feature ul li .single-feature .content h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   text-transform: capitalize;
@@ -8338,7 +8315,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 8px;
 }
 .home6-choose-section .choose-btm .choose-feature ul li .single-feature .content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 13px;
   line-height: 25px;
@@ -8517,7 +8494,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: var(--theme-color);
 }
 .home6-case-study-section .home6-case-study .case-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
@@ -8546,7 +8523,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   height: 70px;
 }
 .home6-partner-area .section-title-6 h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 22px;
   letter-spacing: 0.03em;
@@ -8690,7 +8667,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 40px;
 }
 .home6-testimonial-area .testimonial-wrapper .testimonial-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 22px;
   line-height: 1.9;
@@ -8698,14 +8675,14 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: #E4E4E4;
 }
 .home6-testimonial-area .testimonial-wrapper .author-area h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 24px;
   color: #E4E4E4;
   margin-bottom: 0px;
 }
 .home6-testimonial-area .testimonial-wrapper .author-area span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 30px;
@@ -8731,7 +8708,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   fill: var(--theme-color);
 }
 .home6-what-we-do-section .single-process .content h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 30px;
   text-transform: capitalize;
@@ -8745,7 +8722,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-what-we-do-section .single-process .content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -8759,7 +8736,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: var(--theme-color);
 }
 .home6-what-we-do-section .what-we-do-content h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 45px;
   line-height: 1.3;
@@ -8778,7 +8755,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-what-we-do-section .what-we-do-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -8803,7 +8780,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -8832,7 +8809,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 .home6-contact-section .contact-content > p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 17px;
   line-height: 35px;
@@ -8854,7 +8831,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-contact-section .contact-content .contact-number p {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 25px;
   letter-spacing: 0.01em;
@@ -8880,7 +8857,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 .home6-contact-section .contact-content .contact-step .accordion .accordion-item .accordion-button {
   background-color: transparent;
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 20px;
   text-transform: capitalize;
@@ -8919,7 +8896,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   transition: transform 0.2s ease-in-out;
 }
 .home6-contact-section .contact-content .contact-step .accordion .accordion-item .accordion-body {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 30px;
@@ -8944,7 +8921,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 .home6-contact-section .contact-form-wrap .form-tltle h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 26px;
   color: var(--white-color);
@@ -8960,7 +8937,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 .home6-contact-section .contact-form-wrap .contact-form form label {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -8974,7 +8951,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   height: 41px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -9068,7 +9045,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 color: white;
 }
 .breadcrumbs .breadcrumb-wrapper .breadcrumb-cnt > span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.03em;
@@ -9139,7 +9116,7 @@ color: white;
   background-color: transparent;
   border: 1px solid var(--theme-color);
   color: var(--theme-color);
-  font-family: var(--font-saira);
+  
 }
 .pagination li {
   padding: 0;
@@ -9156,7 +9133,7 @@ color: white;
   border-radius: 5px;
   font-size: 16px;
   color: var(--theme-color);
-  font-family: var(--font-saira);
+  
   transition: 0.5s;
 }
 .pagination li a.active {
@@ -9187,7 +9164,7 @@ color: white;
   }
 }
 .error-page-bg .error-content h1 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 80px;
   letter-spacing: 0.03em;
@@ -9204,7 +9181,7 @@ color: white;
   font-weight: 300;
 }
 .error-page-bg .error-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 35px;
@@ -9279,7 +9256,7 @@ color: white;
   color: var(--theme-color);
 }
 .case-study-pages .case-study-wrap .case-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
@@ -9336,7 +9313,7 @@ color: white;
   }
 }
 .blog-banner .blog-banner-wrap .banner-content h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 60px;
   letter-spacing: 0.01em;
@@ -9344,7 +9321,7 @@ color: white;
   margin-bottom: 10px;
 }
 .blog-banner .blog-banner-wrap .banner-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 22px;
   line-height: 35px;
@@ -9368,7 +9345,7 @@ color: white;
   background: rgba(27, 31, 35, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 165px 0px 0px 165px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 13px;
   color: #A4A4A4;
@@ -9392,7 +9369,7 @@ color: white;
   background: var(--theme-color);
   border-radius: 0px 165px 165px 0px;
   padding: 10px 30px;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -9430,7 +9407,7 @@ color: white;
   }
 }
 .portfolio-masonary-page .isotope-menu li {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   align-items: center;
@@ -9496,7 +9473,7 @@ color: white;
   line-height: 1.1;
 }
 .portfolio-masonary-page .single-work .work-content h3 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 30px;
   letter-spacing: 0.02em;
@@ -9514,7 +9491,7 @@ color: white;
   color: var(--theme-color);
 }
 .portfolio-masonary-page .single-work .work-content span {
-  font-family: var(--font-saira);
+  
   font-style: italic;
   font-weight: 500;
   font-size: 15px;
@@ -9543,7 +9520,7 @@ color: white;
   width: 100%;
 }
 .portfolio-details .portfolio-content h3 {
-  font-family: var(--font-saira);
+  
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -9557,7 +9534,7 @@ color: white;
   }
 }
 .portfolio-details .portfolio-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -9588,7 +9565,7 @@ color: white;
   top: 10px;
 }
 .portfolio-details .portfolio-content .working-process .single-process span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 18px;
   text-transform: capitalize;
@@ -9597,7 +9574,7 @@ color: white;
   margin-bottom: 10px;
 }
 .portfolio-details .portfolio-content .working-process .single-process h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 28px;
   text-transform: capitalize;
@@ -9609,7 +9586,7 @@ color: white;
   }
 }
 .portfolio-details .portfolio-content .working-process .single-process p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -9638,7 +9615,7 @@ color: white;
   border-bottom: unset;
 }
 .portfolio-details .portfolio-info ul li span {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   color: #B5B5B5;
@@ -9647,7 +9624,7 @@ color: white;
 }
 .portfolio-details .portfolio-info ul li h5 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 20px;
   color: var(--white-color);
@@ -9698,7 +9675,7 @@ color: white;
   text-align: end;
 }
 .details-navigation .single-navigation .content a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 13px;
   text-transform: uppercase;
@@ -9708,7 +9685,7 @@ color: white;
   margin-bottom: 0;
 }
 .details-navigation .single-navigation .content h4 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -9805,7 +9782,7 @@ color: white;
   }
 }
 .service-details .about-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -9830,7 +9807,7 @@ color: white;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -9844,7 +9821,7 @@ color: white;
   border-radius: 5px;
 }
 .service-details .how-we-work-section .section-title h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 40px;
   text-transform: capitalize;
@@ -9897,7 +9874,7 @@ color: white;
   margin-bottom: 23px;
 }
 .service-details .how-we-work-section .work-item .single-work .work-content h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 24px;
   line-height: 1.4;
@@ -9916,7 +9893,7 @@ color: white;
   }
 }
 .service-details .how-we-work-section .work-item .single-work .work-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
@@ -9927,7 +9904,7 @@ color: white;
   margin-bottom: 40px;
 }
 .service-details .service-sort-driscription-area .driscription-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -9935,7 +9912,7 @@ color: white;
   color: #B5B5B5;
 }
 .service-details .service-faq-area .faq-content-area h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 40px;
   line-height: 1.5;
@@ -9960,7 +9937,7 @@ color: white;
 }
 .service-details .service-faq-area .accordion .accordion-item .accordion-button {
   background-color: transparent;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 17px;
   text-transform: capitalize;
@@ -10000,7 +9977,7 @@ color: white;
   transition: transform 0.2s ease-in-out;
 }
 .service-details .service-faq-area .accordion .accordion-item .accordion-body {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 30px;
@@ -10017,7 +9994,7 @@ color: white;
   margin-bottom: 50px;
 }
 .case-study-details .case-study-title h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 50px;
   line-height: 1.4;
@@ -10040,7 +10017,7 @@ color: white;
   border-radius: 5px;
 }
 .case-study-details .case-content h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 40px;
   text-transform: capitalize;
@@ -10058,7 +10035,7 @@ color: white;
   }
 }
 .case-study-details .case-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -10082,7 +10059,7 @@ color: white;
   top: 10px;
 }
 .case-study-details .single-process span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 18px;
   text-transform: capitalize;
@@ -10091,7 +10068,7 @@ color: white;
   margin-bottom: 10px;
 }
 .case-study-details .single-process h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 28px;
   text-transform: capitalize;
@@ -10103,7 +10080,7 @@ color: white;
   }
 }
 .case-study-details .single-process p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -10118,7 +10095,7 @@ color: white;
   border-radius: 5px;
 }
 .bolog-details-area .blog-details-content > span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 18px;
   text-transform: capitalize;
@@ -10130,7 +10107,7 @@ color: white;
   margin-bottom: 25px;
 }
 .bolog-details-area .blog-details-content h2 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 50px;
   text-transform: capitalize;
@@ -10179,7 +10156,7 @@ color: white;
 }
 .bolog-details-area .blog-details-content .author-and-meta .author-area .author-content h6 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 15px;
   text-transform: capitalize;
@@ -10203,7 +10180,7 @@ color: white;
   }
 }
 .bolog-details-area .blog-details-content .author-and-meta .blog-meta li {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 0.02em;
@@ -10240,7 +10217,7 @@ color: white;
   visibility: hidden;
 }
 .bolog-details-area .blog-details-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 32px;
@@ -10251,7 +10228,7 @@ color: white;
   margin-bottom: 0;
 }
 .bolog-details-area .blog-details-content > h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 30px;
   text-transform: capitalize;
@@ -10307,7 +10284,7 @@ color: white;
   }
 }
 .bolog-details-area .blog-details-content blockquote p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 20px;
   line-height: 45px;
@@ -10322,7 +10299,7 @@ color: white;
 }
 .bolog-details-area .blog-details-content blockquote h3 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 30px;
   color: var(--theme-color);
@@ -10358,7 +10335,7 @@ color: white;
 }
 .bolog-details-area .blog-details-content .blog-tag-and-social .tag h6 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 18px;
   text-transform: capitalize;
@@ -10378,7 +10355,7 @@ color: white;
   }
 }
 .bolog-details-area .blog-details-content .blog-tag-and-social .tag ul li a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   text-transform: capitalize;
@@ -10400,7 +10377,7 @@ color: white;
 }
 .bolog-details-area .blog-details-content .blog-tag-and-social .social h6 {
   margin-bottom: 0;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 18px;
   text-transform: capitalize;
@@ -10467,7 +10444,7 @@ color: white;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 5px 0px 0px 5px;
   height: 50px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -10508,7 +10485,7 @@ color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   color: #B5B5B5;
@@ -10538,7 +10515,7 @@ color: white;
 .widget-area .recent-post-wraper .widget-cnt .wc a {
   font-size: 14px;
   font-weight: 500;
-  font-family: var(--font-saira);
+  
   color: #B5B5B5;
   transition: 0.5s;
   display: inline-block;
@@ -10557,7 +10534,7 @@ color: white;
 .widget-area .recent-post-wraper .widget-cnt .wc h6 a {
   font-size: 18px;
   font-weight: 500;
-  font-family: var(--font-saira);
+  
   color: var(--white-color);
   transition: 0.5s;
 }
@@ -10576,7 +10553,7 @@ color: white;
   flex-wrap: wrap;
 }
 .widget-area .wp-block-tag-cloud a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   text-transform: capitalize;
@@ -10593,7 +10570,7 @@ color: white;
 }
 
 .comments-area h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 35px;
   text-transform: capitalize;
@@ -10639,7 +10616,7 @@ color: white;
   }
 }
 .comments-area .single-comment .comment-content .author-post .author-info h4 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 24px;
   text-transform: capitalize;
@@ -10647,7 +10624,7 @@ color: white;
   margin-bottom: 5px;
 }
 .comments-area .single-comment .comment-content .author-post .author-info span {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   letter-spacing: 1px;
@@ -10655,7 +10632,7 @@ color: white;
   color: var(--theme-color);
 }
 .comments-area .single-comment .comment-content .author-post .reply a {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -10672,7 +10649,7 @@ color: white;
   border-color: var(--theme-color);
 }
 .comments-area .single-comment .comment-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 32px;
@@ -10681,7 +10658,7 @@ color: white;
 }
 
 .comment-form h3 {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 35px;
   text-transform: capitalize;
@@ -10698,7 +10675,7 @@ color: white;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   height: 58px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -10711,7 +10688,7 @@ color: white;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   min-height: 150px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -10773,7 +10750,7 @@ color: white;
   right: 0;
 }
 .blog-masonary-area .single-blog .blog-img .blog-tag a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 13px;
   text-transform: capitalize;
@@ -10825,7 +10802,7 @@ color: white;
   margin-bottom: 12px;
 }
 .blog-masonary-area .single-blog .blog-content .blog-meta li a {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 13px;
   text-transform: capitalize;
@@ -10839,7 +10816,7 @@ color: white;
   margin-bottom: 0;
 }
 .blog-masonary-area .single-blog .blog-content h4 a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 25px;
   line-height: 1.5;
@@ -10864,7 +10841,7 @@ color: white;
   gap: 10px;
 }
 .blog-masonary-area .single-blog .blog-content .blog-footer .read-btn a {
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.03em;
@@ -10960,7 +10937,7 @@ color: white;
 }
 
 .contact-page-wrap .contact-content > span {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.05em;
@@ -10970,7 +10947,7 @@ color: white;
 }
 .contact-page-wrap .contact-content h2 {
   margin-bottom: 5px;
-  font-family: var(--font-saira);
+  
   font-weight: 700;
   font-size: 42px;
   line-height: 1.4;
@@ -10989,7 +10966,7 @@ color: white;
   }
 }
 .contact-page-wrap .contact-content p {
-  font-family: var(--font-saira);
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -11097,7 +11074,7 @@ color: white;
   border-top-left-radius: 30px;
 }
 .contact-page-wrap .contact-form-wrap .form-tltle h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 22px;
   color: white;
@@ -11117,7 +11094,7 @@ color: white;
   }
 }
 .contact-page-wrap .contact-form-wrap .contact-form form label {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -11131,7 +11108,7 @@ color: white;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   height: 41px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -11176,7 +11153,7 @@ color: white;
   padding: 15px 25px;
   font-size: 18px;
   font-weight: 500;
-  font-family: var(--font-saira);
+  
   color: var(--white-color);
   background-image: url(../img/home-4/pricing-bg-3.png), linear-gradient(#161A1E, #161A1E);
   background-size: cover;
@@ -11195,7 +11172,7 @@ color: white;
 }
 .faq-page .accordion .accordion-item .accordion-button {
   background-color: transparent;
-  font-family: var(--font-saira);
+  
   font-weight: 600;
   font-size: 22px;
   text-transform: capitalize;
@@ -11235,7 +11212,7 @@ color: white;
   transition: transform 0.2s ease-in-out;
 }
 .faq-page .accordion .accordion-item .accordion-body {
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -11256,7 +11233,7 @@ color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 .faq-page .contact-form-wrap .form-tltle h5 {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 22px;
   color: var(--white-color);
@@ -11267,7 +11244,7 @@ color: white;
   padding: 40px 20px;
 }
 .faq-page .contact-form-wrap .contact-form form label {
-  font-family: var(--font-saira);
+  
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -11281,7 +11258,7 @@ color: white;
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   height: 41px;
-  font-family: var(--font-saira);
+  
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;

@@ -87,19 +87,19 @@ function About5() {
 </div>
 
       <div className="banner-area coming-soon-area">
-      <div className="banner-text-slider">
-  <h2 className="marquee_text blink">Exciting News: Online Seminar!</h2>
+      <div className="banner-text-slider flex justify-center text-center">
+  <h2 className="marquee_text blink text-xl font-montserrat">Exciting News: Online Seminar!</h2>
 </div>
 <div className="banner">
   <div className="banner-title">
     <h1>
-    <span className="banner-heading">Unlock the Power of Virtual IT Technology</span>.
+    <span className="banner-heading font-montserrat"  >Unlock the Power of Virtual IT Technology</span>.
 
     </h1>
     <div className="banner-content">
       <div className="col-lg-12">
        
-        <p>Join our online seminar to discover how our smart software technology can accelerate your business growth! </p>
+        <p className='font-roboto'>Join our online seminar to discover how our smart software technology can accelerate your business growth! </p>
         <p> Register yourself now for this exciting opportunity.</p>
       </div>
    
