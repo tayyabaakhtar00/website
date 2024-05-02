@@ -52,7 +52,7 @@ body {
   
 }
 body.bg-dark-5 {
-  background: #2A3E5A;
+  background: var(--white-color);
 }
 
 h1,
@@ -2647,6 +2647,18 @@ banner-heading{
   border-radius: 50%;
   display: inline-block;
 }
+@keyframes marquee-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%); /* Move three divs' worth of distance */
+  }
+}
+
+.animate-marquee {
+  animation: marquee-animation 15s linear infinite; /* Adjust animation duration as needed */
+}
 
 .main-container {
   max-width: 100%;
@@ -2889,7 +2901,7 @@ border-bottom-right-radius: 10px;
 }
 
 .container-border{
- 
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
   margin: 20px;
 }
 .coming-soon-area{
@@ -3121,7 +3133,7 @@ display: flex;
 }
 .main-container .main-content .banner-area-wrapper .banner-area .banner-title span{
  color: #016db6;
- font-size: 50px;
+
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .main-container .main-content .banner-area-wrapper .banner-area .banner-title  .banner-heading{

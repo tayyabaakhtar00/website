@@ -26,8 +26,9 @@ function About5() {
 },[])
   const [isOpen, setOpen] = useState(false)
   return (
-    <div className="container" id="home5-about-area">
-    <div className="  container-border">
+    <div className="" id="home5-about-area">
+    <h2 className='flex justify-center text-senter text-4xl font-semibold leading-2'>Our Upcoming Events</h2>
+    <div className=" container-border ">
       {/* <div className="row g-4 gy-5">
         <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="about-content">
@@ -80,18 +81,18 @@ function About5() {
           </div>
         </div>
       </div> */}
-      <div className="comingsoon-pic">
+      <div className="comingsoon-pic ">
   <div className="banner-video-container">
     <video src="/assets/img/technology-video.mp4" autoPlay loop muted className="banner-video"></video>
   </div>
 </div>
 
-      <div className="banner-area coming-soon-area">
-      <div className="banner-text-slider flex justify-center text-center">
-  <h2 className="marquee_text blink text-xl font-montserrat">Exciting News: Online Seminar!</h2>
+      <div className="banner-area coming-soon-area bg-[#2A3E5A]">
+        <div className="banner-text-slider flex justify-center text-center bg-[#E4E4E4]">
+  <h2 className="marquee_text blink text-xl font-montserrat ">Exciting News: Online Seminar!</h2>
 </div>
-<div className="banner">
-  <div className="banner-title">
+<div className="banner ">
+  <div className="banner-title ">
     <h1>
     <span className="banner-heading font-montserrat"  >Unlock the Power of Virtual IT Technology</span>.
 

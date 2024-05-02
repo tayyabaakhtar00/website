@@ -27,12 +27,12 @@ function Bannder5() {
   return (
     <div className="banner-area-wrapper" id="">
         <div className="company-name ">
-        <h2 className="font-montserrat md:text-[45px]  lg:text-[48px] xl:text-[47px] 2xl:text-[70px]">Unify&#8209;Imagination</h2>
+        <h2 className="font-montserrat md:text-[45px]  lg:text-[48px] xl:text-[47px] xxl:text-[80px]">Unify&#8209;Imagination</h2>
         </div>
         <div className="banner-area">
        
-          <div className="banner-title font-montserrat mt-[15%]">
-          <h1><span className="banner-heading  font-montserrat">Unlock  </span><br/>to your Business your growth & the future.</h1>
+          <div className="banner-title font-montserrat mt-[15%] xxl:text-[120px]">
+          <h1 className="xxl:text-[120px]"><span className="banner-heading  font-montserrat xxl:text-[120px]">Unlock  </span><br/>to your Business your growth & the future.</h1>
       
           <div className="banner-content">
             <div className="">
@@ -40,7 +40,7 @@ function Bannder5() {
               <p className="font-roboto">Proudly serving the world's top asset finance & leasing companies with smart software technology for over four decades.</p>
                 <div className="scroll-and-social-area">
                   <div className="scroll-down-area font-roboto">
-                    <a href="#home5-about-area ">
+                    <a href="#home5-event-area ">
                       <span />
                       Scroll Down to explore
                     </a>
