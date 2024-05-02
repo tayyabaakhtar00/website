@@ -40,7 +40,7 @@ function HomepageThree() {
       </Head>
       <Sidebar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <div className="main-container">
-        <div className="sidebar-wrapper">
+        <div className="sidebar-wrapper bg-yellow-300">
           <div className="header-logo">
             <Link legacyBehavior href="/">
               <a>

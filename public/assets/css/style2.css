@@ -2647,18 +2647,6 @@ banner-heading{
   border-radius: 50%;
   display: inline-block;
 }
-@keyframes marquee-animation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-200%); /* Move three divs' worth of distance */
-  }
-}
-
-.animate-marquee {
-  animation: marquee-animation 15s linear infinite; /* Adjust animation duration as needed */
-}
 
 .main-container {
   max-width: 100%;
@@ -6340,6 +6328,17 @@ display: flex;
   display: block;
   z-index: 1;
 }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 767px) {
   .home5-about-area .about-img-wrap .about-img {
     display: none;
