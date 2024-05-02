@@ -1,7 +1,4 @@
 import React from 'react'
-import Marquee from "react-fast-marquee";
-import ParentComponent from '../slider/ParentsComponent';
-<link rel="stylesheet" href="css/animate.css"></link>
 import { useEffect } from 'react';
 function Events1() {
     
@@ -48,7 +45,6 @@ function Events1() {
         <p className="font-montserrat text-[25px] font-medium">Lets quickly get to the information you require.</p>   
         </div> 
       </div>
-      {/* <ParentComponent/> */}
     </div>
     <div className=" w-[32%] container-border p-6">
       <div className="border-b-1 mb-3 border-b-[1px]  border-black  flew-column justify-between">
