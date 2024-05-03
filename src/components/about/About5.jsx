@@ -86,36 +86,25 @@ function About5() {
     <video src="/assets/img/technology-video.mp4" autoPlay loop muted className="banner-video"></video>
   </div>
 </div>
-
-      <div className="banner-area coming-soon-area bg-[#2A3E5A]">
+      <div className="banner-area coming-soon-area bg-[#E4E4E4]">
         <div className="banner-text-slider flex justify-center text-center bg-[#E4E4E4]">
-  <h2 className="marquee_text blink text-xl font-montserrat ">Exciting News: Online Seminar!</h2>
+  <h2 className="marquee_text blink text-xl font-montserrat text-[#016DB6]">Exciting News: Online Seminar!</h2>
 </div>
-<div className="banner ">
+<div className="banner bg-white">
   <div className="banner-title ">
     <h1>
-    <span className="banner-heading font-montserrat"  >Unlock the Power of Virtual IT Technology</span>.
-
+    <span className="banner-heading font-montserrat text-[#016DB6]"  >Unlock the Power of Virtual IT Technology</span>.
     </h1>
-    <div className="banner-content">
-      <div className="col-lg-12">
-       
-        <p className='font-roboto'>Join our online seminar to discover how our smart software technology can accelerate your business growth! </p>
-        <p> Register yourself now for this exciting opportunity.</p>
+    <div className="banner-content ">
+      <div className="col-lg-12">      
+        <p className='font-roboto text-[#016DB6]'>Join our online seminar to discover how our smart software technology can accelerate your business growth! </p>
+        <p className='font-roboto text-[#016DB6] font-semibold'> Register yourself now for this exciting opportunity.</p>
       </div>
-   
-
-
-             
-          
-           
             </div>
-          </div>
-       
+          </div>     
         </div>
       </div>
       </div>
- 
     <React.Fragment>
 			<ModalVideo  style={{ overlay: { zIndex: 9999 } }} channel='youtube' autoplay isOpen={isOpen} videoId="JSIwZ_tEP9o" onClose={() => setOpen(false)} />
 		</React.Fragment>

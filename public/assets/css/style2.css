@@ -1767,7 +1767,6 @@ video {
   line-height: 1.32;
   letter-spacing: 0.03em;
   text-transform: capitalize;
-  color: var(--white-color);
   margin-bottom: 25px;
 }
 @media (max-width: 1600px) {
@@ -2842,9 +2841,7 @@ banner-heading{
   color: var(--white-color);
   padding-top: 20px;
 }
-.banner .banner-title .banner-content p{
-  color: var(--white-color);
-}
+
 .main-container .main-content .banner-area-wrapper {
   /* background-image: url(../img/banner-img.jpeg);  */
   background-repeat: no-repeat;
@@ -2895,10 +2892,11 @@ border-bottom-right-radius: 10px;
 .coming-soon-area{
   border: 1px solid whitesmoke;
   padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
 }
-.marquee_text {
-  color: var(--base-color);
-}
+
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
