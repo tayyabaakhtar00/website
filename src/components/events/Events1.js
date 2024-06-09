@@ -34,10 +34,10 @@ function Events1() {
         });
     })
   return (
-    <div className="preloaders bg-white">
+    <div className="preloaders bg-white ">
     <div id="particles-backgrounds" className="vertical-centered-box" />
     <div id="particles-foregrounds" className="vertical-centered-box" />
-    <div className="flex  p-8 justify-between relative " id='home5-event-area'>  
+    <div className="flex  p-8 justify-between  relative" id='home5-event-area'>  
     <div className="w-[64%] font-montserrat wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s  ">
     <h1 className="text-[45px] font-semibold mt-[10%] ">Welcome to the<span className="banner-heading text-[#016DB6] font-montserrat "> WCAD </span>Tech <br/> Solution Wizard. </h1>
     <div className="banner-content">
